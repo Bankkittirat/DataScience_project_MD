@@ -3,7 +3,7 @@ from joblib import load
 from sklearn.datasets import fetch_20newsgroups
 
 data = fetch_20newsgroups()
-categories = ['talk.religion.misc', 'soc.religion.christian', 'sci.space', 'comp.graphics']
+categories = ['talk.politics.guns', 'rec.motorcycles', 'sci.space', 'comp.graphics']
 train = fetch_20newsgroups(subset='train', categories=categories)
 
 # Create your views here.
